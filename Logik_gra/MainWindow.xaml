@@ -56,7 +56,7 @@
 
         <Ellipse Name="Ellipse5_0" HorizontalAlignment="Center" VerticalAlignment="Center" Width="40" Height="40" Stroke="Black" Grid.Row="5" Grid.Column="0" Fill="LightGray"/>
         <Ellipse Name="Ellipse5_1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="40" Height="40" Stroke="Black" Grid.Row="5" Grid.Column="1" Fill="LightGray"/>
-        <Ellipse Name="Ellipse5_2 "HorizontalAlignment="Center" VerticalAlignment="Center" Width="40" Height="40" Stroke="Black" Grid.Row="5" Grid.Column="2" Fill="LightGray"/>
+        <Ellipse Name="Ellipse5_2" HorizontalAlignment="Center" VerticalAlignment="Center" Width="40" Height="40" Stroke="Black" Grid.Row="5" Grid.Column="2" Fill="LightGray"/>
         <Ellipse Name="Ellipse5_3" HorizontalAlignment="Center" VerticalAlignment="Center" Width="40" Height="40" Stroke="Black" Grid.Row="5" Grid.Column="3" Fill="LightGray"/>
 
         <Ellipse Name="Ellipse6_0" HorizontalAlignment="Center" VerticalAlignment="Center" Width="40" Height="40" Stroke="Black" Grid.Row="6" Grid.Column="0" Fill="LightGray"/>
@@ -106,7 +106,7 @@
 
         <Rectangle Name="Rectangle6_4"  Grid.Column="4" Grid.Row="6" HorizontalAlignment="Center" Height="30" Stroke="Black" VerticalAlignment="Center" Width="30" Fill="LightGray"/>
         <Rectangle Name="Rectangle6_5" Grid.Column="5" Grid.Row="6" HorizontalAlignment="Center" Height="30" Stroke="Black" VerticalAlignment="Center" Width="30" Fill="LightGray"/>
-        <Rectangle Name="Rectangle6_5" Grid.Column="6" Grid.Row="6" HorizontalAlignment="Center" Height="30" Stroke="Black" VerticalAlignment="Center" Width="30" Fill="LightGray"/>
+        <Rectangle Name="Rectangle6_6" Grid.Column="6" Grid.Row="6" HorizontalAlignment="Center" Height="30" Stroke="Black" VerticalAlignment="Center" Width="30" Fill="LightGray"/>
         <Rectangle Name="Rectangle6_7" Grid.Column="7" Grid.Row="6" HorizontalAlignment="Center" Height="30" Stroke="Black" VerticalAlignment="Center" Width="30" Fill="LightGray"/>
 
         <Rectangle Name="Rectangle7_4" Grid.Column="4" Grid.Row="7" HorizontalAlignment="Center" Height="30" Stroke="Black" VerticalAlignment="Center" Width="30" Fill="LightGray"/>
