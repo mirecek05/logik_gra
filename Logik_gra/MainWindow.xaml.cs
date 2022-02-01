@@ -168,33 +168,50 @@ namespace Logik_gra
             return Brushes.Red;
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void BtnVyhodnotit_Click(object sender, RoutedEventArgs e)
         {
             int pocetCernych = 0;
+            int pocetBilych = 0;
 
             if (Ellipse0_0.Fill == barva1)
             {
                 pocetCernych++;
             }
+            else if (Ellipse0_0.Fill == barva2 || Ellipse0_0.Fill == barva3 || Ellipse0_0.Fill == barva4)
+            {
+                pocetBilych++;
+            }
             if (Ellipse0_1.Fill == barva2)
             {
                 pocetCernych++;
+            }
+            else if (Ellipse0_1.Fill == barva1 || Ellipse0_1.Fill == barva3 || Ellipse0_0.Fill == barva4)
+            {
+                pocetBilych++;
             }
             if (Ellipse0_2.Fill == barva3)
             {
                 pocetCernych++;
             }
-            if (Ellipse0_3.Fill == barva3)
+            else if (Ellipse0_2.Fill == barva1 || Ellipse0_2.Fill == barva2 || Ellipse0_2.Fill == barva4)
+            {
+                pocetBilych++;
+            }
+            if (Ellipse0_3.Fill == barva4)
             {
                 pocetCernych++;
             }
-              
+            else if (Ellipse0_3.Fill == barva1 || Ellipse0_3.Fill == barva2 || Ellipse0_3.Fill == barva3)
+            {
+                pocetBilych++;
+            }
+
 
             if (pocetCernych > 0)
             {
                 Rectangle0_4.Fill = Brushes.Black;
             }
-            if(pocetCernych > 1)
+            if (pocetCernych > 1)
             {
                 Rectangle0_5.Fill = Brushes.Black;
             }
@@ -207,6 +224,11 @@ namespace Logik_gra
                 Rectangle0_7.Fill = Brushes.Black;
             }
 
+
+        }
+
+        private void BtnNovaHra_Click(object sender, RoutedEventArgs e)
+        {
 
         }
     }
